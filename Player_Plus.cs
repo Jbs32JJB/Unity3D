@@ -34,5 +34,6 @@ public class Player : MonoBehaviour
 
         anim.SetBool("isRun", moveVec != Vector3.zero);
         anim.SetBool("isWalk", wDown);
+        // set Animation Setting
     }
 }
